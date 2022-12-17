@@ -1,0 +1,33 @@
+{
+  "name": "readit",
+  "private": true,
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "nodemon --exec electron . --watch ./ --ext .js,.html,.css,.vue",
+    "app:dist": "electron-builder"
+  },
+  "dependencies": {
+    "image-type": "^4.1.0",
+    "normalize.css": "^8.0.1",
+    "pinia": "^2.0.16",
+    "store2": "^2.14.2",
+    "stylus": "^0.58.1",
+    "vue": "^3.2.25",
+    "vue-router": "^4.1.2",
+    "electron-win-state": "^1.1.22",
+    "got": "^11.8.5",
+    "lodash": "^4.17.21",
+    "randomstring": "^1.2.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "electron": "^19.0.8",
+    "electron-builder": "^23.1.0",
+    "nodemon": "^2.0.19",
+    "vite": "^2.9.9"
+  }
+}
